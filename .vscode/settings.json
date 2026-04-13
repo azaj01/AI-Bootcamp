@@ -1,10 +1,4 @@
 {
-  "jupyter.askForKernelRestart": false,
-  "notebook.consolidatedRunButton": true,
-  "ruff.enable": true,
-  "ruff.organizeImports": true,
-  "ruff.importStrategy": "useBundled",
-  "python.defaultInterpreterPath": "python",
   "[python]": {
     "editor.formatOnSave": true,
     "editor.defaultFormatter": "charliermarsh.ruff",
@@ -14,9 +8,11 @@
     }
   },
   "notebook.formatOnSave.enabled": true,
-  "notebook.defaultFormatter": "charliermarsh.ruff",
   "notebook.codeActionsOnSave": {
     "notebook.source.fixAll": "explicit",
-    "notebook.source.organizeImports": "explicit"
-  },
+    "notebook.source.organizeImports": "explicit",
+},
+"terminal.integrated.fontFamily": "BlexMono Nerd Font",
+"terminal.integrated.fontLigatures.enabled": true,
+"jupyter.interactiveWindow.textEditor.executeSelection": true
 }
